@@ -1,0 +1,59 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 76%;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 200;
+}
+
+.form-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-weight: 400;
+}
+
+.auth-input {
+  border-width: 2.3px;
+  width: 225px;
+  border-color: rgba(133, 133, 133, 0.388);
+  margin: 4px 0px 13px 0px;
+}
+
+.auth-title {
+  margin-top: 125px;
+  font-family: Calligraffitti;
+  font-size: 70px;
+}
+
+.button-submit {
+  background-color: #008cba;
+  color: white;
+  box-shadow: 0px 3px 3px 0px #b5b5b5c9;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  place-self: center;
+  border: 0px;
+}
+
+.text-validation {
+  font-size: 12px;
+  color: #e62020;
+  margin-bottom: 8px;
+}
+.link-authentication {
+  text-decoration: none;
+  font-size: 11px;
+  width: 100%;
+  color: #008cba;
+  text-align: end;
+}
